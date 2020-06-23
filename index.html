@@ -14,13 +14,13 @@
         <nav>
             <ol>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
+                    <a href="#experiencia">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a href="contacto">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
@@ -30,7 +30,7 @@
         <h1>Hola! Soy <strong>Fehler Tzún</strong> <br/>Aprendiz de <strong>desarrollo web</strong> <br/>aprendiendo con <strong>esfuerzo y dedicación</strong></h1>
         <img src="https://imgur.com/pbj3Nos.jpg" width="400" height="250" alt="imagen principal del sitio">
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
         <article>
             <h3>Platzi Video</h3>
@@ -41,7 +41,7 @@
         <img src="https://imgur.com/KQyNEQB.jpg" width="400" height="250" alt="imagen de viaje">
         </article>
     </section>
-    <section>
+    <section id="experiencia">
         <h2>Más sobre mi Experiencia</h2>
         <article>
             <figure>
@@ -52,11 +52,12 @@
             <a>Ver como nos quedo el cementado</a>
         </article>
     </section>
-    <section>
+    <section id="contacto">
         <form action="/suscripcion/">
-            <label for="email">Déjame tu email</label>
-            <input type="datetime" placeholder="Escribe tu email" id="email">
-            <input type="submit" value="texto del boton">
+            <h3>Realizamos algo juntos</h3>
+            <!--<label for="email">Déjame tu email</label> se puede utilizar para nombrar el nombre del input de escribir email-->
+            <input type="text" placeholder="Escribe tu email" id="email">
+            <!--<input type="submit" value="texto del boton">-- podria utilizarlo para nombrar el envio>-->
             <button>Enviar</button>
         </form>
     </section>
