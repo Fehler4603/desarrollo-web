@@ -1,7 +1,26 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+/*selector de etiqueta header-section-article-nav*/
 header
 {
     background: rgb(51, 178, 228);
+    color: red;
 }
+
+
+/*selector descendente*/
+/*body-header-div-nav-ol-li-a*/
+/*selector de class es que el que vamos a estar utilizando*/
+/* asi se se referencia un selector de class .link*/
+
+/*selector de id #portafolio*/
+
+
+
 body
 {
     background: rgb(7, 117, 160);
