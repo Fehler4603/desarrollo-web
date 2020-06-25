@@ -5,12 +5,15 @@ propiedades
 valores */
 
 /*selector de etiqueta header-section-article-nav*/
-header
+/* header
 {
     background: rgb(51, 178, 228);
     color: red;
-}
+} */
 
+/* gris oscuro = #1d252c
+gris claro = #626262
+background gris = #1b2127 */
 
 /*selector descendente*/
 /*body-header-div-nav-ol-li-a*/
@@ -42,12 +45,22 @@ h1{
     font-size: 35px;
     line-height: 1.3;
     letter-spacing: -.2px;
+    color: white;
     /* text-transform: uppercase; <-- para mayusculas el uppercase*/
     /* text-decoration: overline; <-- para subrayar*/
 }
 
+h1 strong{
+    color: #026fff;
+}
+
 .hero{
     height: 300px;
+    background-image: url(https://imgur.com/m1HfeeI.jpg);
+    background-size: 500px 300px;
+    background-color: rgb(2, 2, 34);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .project-details{
@@ -56,4 +69,14 @@ h1{
 
 .project-imageContainer{
     width: 500px;
+}
+
+.header{
+    background-color: rgb(2, 2, 34);
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
