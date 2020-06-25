@@ -23,5 +23,15 @@ header
 
 body
 {
-    background: rgb(7, 117, 160);
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(7, 117, 160)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
 }
