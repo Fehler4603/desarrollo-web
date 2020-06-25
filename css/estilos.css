@@ -34,4 +34,14 @@ h4,
 h5,
 h6{
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1{
+    font-size: 35px;
+    line-height: 1.3;
+    letter-spacing: -.2px;
+    /* text-transform: uppercase; <-- para mayusculas el uppercase*/
+    /* text-decoration: overline; <-- para subrayar*/
 }
