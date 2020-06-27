@@ -22,12 +22,11 @@ background gris = #1b2127 */
 
 /*selector de id #portafolio*/
 
-
-
 body
 {
     font-family: 'Source Sans Pro', sans-serif;
-    background: rgb(7, 117, 160)
+    background: rgb(7, 117, 160);
+    margin: 0;
 }
 
 h1,
@@ -46,6 +45,7 @@ h1{
     line-height: 1.3;
     letter-spacing: -.2px;
     color: white;
+    margin: 150px 150px 70px 30px;
     /* text-transform: uppercase; <-- para mayusculas el uppercase*/
     /* text-decoration: overline; <-- para subrayar*/
 }
@@ -61,6 +61,12 @@ h1 strong{
     background-color: rgb(2, 2, 34);
     background-repeat: no-repeat;
     background-position: right;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.portfolio{
+    background: #fafafa;
 }
 
 .project{
@@ -71,8 +77,12 @@ h1 strong{
         /* border-top-color: red;
         border-top-width:15px;
         border-top-style: solid; */
+        background: white;
+        margin: 10px;
         border: 1px solid gray;
         border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 20px;
 }
 .project-details{
     width: 500px;
@@ -85,6 +95,10 @@ h1 strong{
 .header{
     background-color: rgb(2, 2, 34);
     color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 20px;
 }
 
 .header a{
