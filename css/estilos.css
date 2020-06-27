@@ -70,6 +70,7 @@ h1 strong{
 }
 
 .project{
+        display: inline-flex;
         /* border-top: 10px solid red;
         border-right: 10px solid green;
         border-left: 10px solid green;
@@ -86,10 +87,12 @@ h1 strong{
 }
 .project-details{
     width: 500px;
+    /* display: inline-block; */
 }
 
 .project-imageContainer{
     width: 500px;
+    /* display: inline-block; */
 }
 
 .header{
@@ -104,4 +107,20 @@ h1 strong{
 .header a{
     color: white;
     text-decoration: none;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-direction: column; para colocarlos en columnas */
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border:1px solid red;
+
+    flex-shrink: 0;
 }
