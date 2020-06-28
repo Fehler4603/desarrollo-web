@@ -70,9 +70,9 @@ h2 {
     background-size: 500px 300px; */
     background-color: rgb(2, 2, 34);
     /* background-repeat: no-repeat;
-    background-position: right; */
+    background-position: right;
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 10px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -219,6 +219,7 @@ figure{
 
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-title{
@@ -314,9 +315,11 @@ figure{
 .social-link.facebook{
     background-image: url('https://imgur.com/iR78MLl.png');
 }
+
 .social-link.github{
     background-image: url('https://imgur.com/VMtTNAK.png');
 }
+
 .social-link.instagram{
     background-image: url('https://imgur.com/ijHJKXt.png');
 }
@@ -335,4 +338,15 @@ figure{
 
 .form-email h3{
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
