@@ -25,7 +25,8 @@ background gris = #1b2127 */
 body
 {
     font-family: 'Source Sans Pro', sans-serif;
-    background: rgb(7, 117, 160);
+    /* background: rgb(7, 117, 160); */
+    background: black;
     margin: 0;
 }
 
@@ -198,6 +199,7 @@ figure{
     }
 
 .footer{
+    padding-left: 10px;
     color: white;
     background-color: #1b2127;
     display: flex;
@@ -220,7 +222,9 @@ figure{
 }
 
 .event-list-title{
+    background-color:white;
     margin-top: 40px;
+    padding-left: 20px;
 }
 
 .event{
@@ -259,4 +263,76 @@ figure{
     text-decoration: none;
     color: blue;
     border-radius: 5px;
+}
+
+.creditos{
+    padding-right: 10px;
+}
+
+.contact{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color:  rgb(2, 2, 34);
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-email{
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.button{
+    padding: 5px 20px;
+    border-radius: 2px;
+    display: block;
+    margin: 10px;
+    background: transparent;
+    color: white;
+}
+
+.social{
+
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+    border-radius: 2px;
+}
+
+.social-link.twitter{
+    background-image: url('https://imgur.com/oLSFlj3.png');
+}
+
+.social-link.facebook{
+    background-image: url('https://imgur.com/iR78MLl.png');
+}
+.social-link.github{
+    background-image: url('https://imgur.com/VMtTNAK.png');
+}
+.social-link.instagram{
+    background-image: url('https://imgur.com/ijHJKXt.png');
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('https://imgur.com/O6dCCrP.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
 }
