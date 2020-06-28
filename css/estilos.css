@@ -96,7 +96,7 @@ h2 {
         border-top-width:15px;
         border-top-style: solid; */
         background: white;
-        margin: 10px;
+        /* margin: 10px; */
         border: 1px solid gray;
         border-radius: 10px;
         margin-bottom: 15px;
@@ -211,6 +211,52 @@ figure{
     padding-right: 10px;
 }
 
-.footer a{
+/* .footer a{
 
+} */
+
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-top: 40px;
+}
+
+.event{
+    border: 1px solid gray;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.event img{
+    width: 480;
+    height: 200;
+    object-fit: cover;
+}
+
+.event-detail{
+    border: 1px solid gray;
+    margin: 20px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: center;
+}
+
+.event-url{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: blue;
+    border-radius: 5px;
 }
