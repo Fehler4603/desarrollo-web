@@ -378,7 +378,7 @@ figure{
 
 @media screen and (max-width: 768px){
     body{
-        border: 10px solid green;
+        /* border: 10px solid green; */
     }
 }
 
