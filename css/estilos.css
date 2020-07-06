@@ -253,8 +253,8 @@ figure{
 
 .event{
     /* border: 1px solid gray; */
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -380,6 +380,9 @@ figure{
 
 /* destok first que empiece desde el MQ mas grande*/
 @media screen and (max-width: 1024px){
+    .container{
+        padding: 0 .8em;
+    }
     
 }
 
@@ -448,6 +451,44 @@ figure{
     .project-description{
         font-size: .8em;
     }
+
+    .event{
+        width: auto;
+        flex-shrink: initial;
+    }
+
+    .event img {
+        width: 100%;
+    }
+
+    .event-detail{
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
+    .contact{
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+    }
+
+    .button{
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .form-email h3{
+        margin-top: 0;
+    }
+
+    .footer{
+        height: auto;
+        text-align: center;
+        display: block;
+        border: 1px solid transparent;
+    }
+
 }
 
 @media screen and (max-width: 480px){
