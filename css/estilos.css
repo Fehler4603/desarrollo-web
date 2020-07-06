@@ -380,6 +380,9 @@ figure{
 
 /* destok first que empiece desde el MQ mas grande*/
 @media screen and (max-width: 1024px){
+    .container{
+        padding: 0 .8em;
+    }
     
 }
 
@@ -462,6 +465,30 @@ figure{
         margin: -2em .5em .5em;
         padding: 1em;
     }
+
+    .contact{
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+    }
+
+    .button{
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .form-email h3{
+        margin-top: 0;
+    }
+
+    .footer{
+        height: auto;
+        text-align: center;
+        display: block;
+        border: 1px solid transparent;
+    }
+
 }
 
 @media screen and (max-width: 480px){
