@@ -227,7 +227,7 @@ figure{
 }
 
 .event-list div{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin-bottom: 10px;
     border-radius: 5px;
     overflow-y: hidden;
