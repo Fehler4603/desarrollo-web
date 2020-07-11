@@ -66,8 +66,7 @@ h2 {
 
 .hero{
     height: 300px;
-    /* background-image: url(https://imgur.com/m1HfeeI.jpg);
-    background-size: 500px 300px; */
+    /* background-image: url(https://imgur.com/m1HfeeI.jpg);*/
     background-color: rgb(2, 2, 34);
     /* background-repeat: no-repeat;
     background-position: right;
@@ -104,7 +103,7 @@ h2 {
         margin-bottom: 15px;
         padding: 20px;
         background: white;
-        display: flex;
+        display: flex;     
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -131,22 +130,28 @@ h2 {
 
 .project-details{
     width: 50%;
+<<<<<<< HEAD
     /* display: inline-block; */
+=======
+>>>>>>> original
 }
 
 .project-imageContainer{
     width: 50%;
+<<<<<<< HEAD
     /* display: inline-block; */
+=======
+}
+
+.project-imageContainer img{
+    max-width: 100%;
+>>>>>>> original
 }
 
 
 .header{
     background-color: rgb(2, 2, 34);
     color: white;
-    /* border: 1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding-left: 20px; */
     display: flex;
     height: 70px;
     align-items: center;
@@ -231,7 +236,7 @@ figure{
 }
 
 .event-list div{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     margin-bottom: 10px;
     border-radius: 5px;
     overflow-y: hidden;
@@ -378,15 +383,20 @@ figure{
     flex-wrap: inherit;
 }
 
+<<<<<<< HEAD
 /* destok first que empiece desde el MQ mas grande*/
 @media screen and (max-width: 1024px){
     .container{
         padding: 0 .8em;
     }
+=======
+@media screen and (max-width: 1024px){
+>>>>>>> original
     
 }
 
 @media screen and (max-width: 767px){
+<<<<<<< HEAD
     .header{
         display: block;
         height: auto;
@@ -459,12 +469,88 @@ figure{
 
     .event img {
         width: 100%;
+=======
+        .header{
+            display: block;
+            height: auto;
+        }
+
+        .header ol{
+            display: block;
+        }
+
+        .header ol li{
+            height: 50px;
+        }
+
+        .header a{
+            justify-content: center;
+        }
+
+        .header .logo{
+            text-align: center;
+        }
+
+        .project{
+            display: block;
+        }
+
+        .project-imageContainer{
+            width: auto;
+            text-align: center;
+        }
+
+        .project-details{
+            width: auto;
+            /* font-size: 16px; */
+        }
+
+        .project-course, .project-date, .project-url{
+            margin: .3em 0;
+        }
+        .project-title{
+            font-size: 1.5em;
+            margin-bottom: .3em;
+        }
+
+        .project-url{
+            font-size: 1em;
+        }
+
+        .project-course{
+            font-size: .7em;
+        }
+
+        .project-date{
+            font-size: 1em;
+        }
+
+        .project-description{
+            font-size: .8em;
+        }
+
+        .event{
+            width: auto;
+            flex-shrink: initial;
+        }
+
+        .event img{
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 480px){
+    .project-details{
+        width: auto;
+        font-size: 12px;
+>>>>>>> original
     }
 
     .event-detail{
         margin: -2em .5em .5em;
         padding: 1em;
     }
+<<<<<<< HEAD
 
     .contact{
         height: auto;
@@ -495,6 +581,8 @@ figure{
     .project-details{
         font-size: 12px;
     }
+=======
+>>>>>>> original
 }
 
 @media screen and (max-width: 320px){
