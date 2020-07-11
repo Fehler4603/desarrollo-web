@@ -441,6 +441,11 @@ figure{
 
         .event{
             width: auto;
+            flex-shrink: initial;
+        }
+
+        .event img{
+            width: 100%;
         }
 }
 
@@ -448,6 +453,11 @@ figure{
     .project-details{
         width: auto;
         font-size: 12px;
+    }
+
+    .event-detail{
+        margin: -2em .5em .5em;
+        padding: 1em;
     }
 }
 
