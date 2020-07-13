@@ -31,7 +31,7 @@
         </nav>
         </div>
     </header>
-    <section class="hero">
+   <section class="hero">
         <div class="container">
             <h1>
                 Hola! Soy <strong>Fehler Donadony Tzún Dávila</strong> <br/>Aprendiz de <strong>desarrollo web</strong> <br/>aprendiendo con <strong>esfuerzo y dedicación</strong>
@@ -146,15 +146,23 @@
         </div>
     </footer>
     <script>
-        console.log("probando");
-        console.log(document.querySelector('.menu'));
-
+        //console.log("probando");
+        //console.log(document.querySelector('.menu'));
+        const ipad = window.matchMedia('screen and (max-width: 767px)')
         const menu = document.querySelector('.menu');
-        console.log(menu);
+        //console.log(menu);
         const burgerButton = document.querySelector('#burger-menu');
-        console.log(burgerButton);
+        //console.log(burgerButton);
 
-        burgerButton.addEventListener('click', hideshow);
+        ipad.addListener(validation);
+
+        function validation(event){
+            if (event.matches) {
+                burgerButton.addEventListener('click', hideshow)
+            }else{
+                burgerButton.removeEventListener('click', hideshow) 
+            }
+        }
 
         function hideshow(){
             if (menu.classList.contains('is-active')){
