@@ -590,6 +590,10 @@ figure{
 }
 
 @media screen and (max-width: 480px){
+    .project-description{
+        text-align: justify;
+    }
+
     h1{
         font-size: 1.1em;
     }
