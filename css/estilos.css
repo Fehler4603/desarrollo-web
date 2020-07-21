@@ -416,7 +416,7 @@ figure{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:rgba(0, 0, 0, .8);
+    background-color:rgba(128, 213, 247, 0.8);
     display: none;
     line-height: 40px;
     text-align: center;
@@ -509,7 +509,7 @@ figure{
         }
 
     .header a{
-            justify-content: center;
+            justify-content: left;
             height: 40px;
             font-size: 2em;
             text-decoration: underline;
@@ -522,7 +522,7 @@ figure{
     
     .menu{
         position: fixed;
-        background:rgba(2, 111, 255, .9);
+        background:rgba(2, 2, 34, .7);
         z-index: 3;
         top: 0;
         left: -100vw;
@@ -590,6 +590,23 @@ figure{
 }
 
 @media screen and (max-width: 480px){
+    .strongProyDes{
+        font-size: 0.5em;
+    }
+    .menu{
+        position: fixed;
+        background:rgba(2, 2, 34, .7);
+        z-index: 3;
+        top: 0;
+        left: -100wv;
+        width: 100vw;
+        /* height: 100vw; */
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
     .project-description{
         text-align: justify;
     }
