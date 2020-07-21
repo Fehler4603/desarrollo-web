@@ -410,7 +410,6 @@ figure{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-    text-align: justify;
 }
 
 .burger-button{
