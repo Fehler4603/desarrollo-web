@@ -599,6 +599,7 @@ figure{
     }
     .project-details{
         font-size: 14px;
+        text-align: justify;
     }
 
     .event-detail{
